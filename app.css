@@ -1,0 +1,102 @@
+nav{
+    background-color: #3d444d;
+    padding: 1rem;
+    color: white;
+}
+nav > ul{
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    gap: 2rem;
+}
+nav > ul a {
+    color: var(--white);
+    display: block;
+    background-color: var(--gray);
+    padding: 1rem;
+    border: solid 1px white;
+    border-radius: var(--border-rad);
+    text-decoration: none;
+    transition: all ease 150ms;
+}
+nav > ul a:hover,
+nav > ul a.active {
+    background-color: var(--accent-grey);
+}
+footer{
+    text-align: center;
+}
+section{
+    background-color: lightgray;
+}
+header{
+    text-align: center;
+}
+.hero-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -180%);
+    color: white;
+    background: none;
+}
+h1{
+    text-shadow: 2px 2px black;
+    font-size: 50px;
+}
+img{
+    width: 100%;
+    object-fit: cover;
+}
+.content{
+    display:flex;
+    flex-flow: row wrap;
+    max-width: 980px;
+    margin: 1rem auto;
+    justify-content: space-between;
+}
+.third{
+    width: 32%;
+}
+.half{
+    width: 48%;
+}
+.services{
+    text-align: center;
+    color: white;
+}
+.fouth{
+    width: 24%;
+}
+.more-services{
+    position: absolute;
+    top: 1420px;
+    right: 165px;
+    width: 400px;
+    height: 100px;
+}
+.contact{
+    position: absolute;
+    top: 4100px;
+    right: 165px;
+    width: 400px;
+    height: 100px;
+}
+section:last-of-type{
+    background: transparent;
+    color: white;
+}
+p:last-of-type{
+    color: black;
+    background-color: lightgray;
+}
+input{
+    display: flex;
+}
+input:last-child{
+    position: absolute;
+    top: 170px;
+    right: 13px;
+    width: 200px;
+    height: 70px;
+}
